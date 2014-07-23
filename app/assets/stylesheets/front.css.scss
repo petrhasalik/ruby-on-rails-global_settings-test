@@ -1,0 +1,9 @@
+.field_with_errors {
+  label {color: #d43f3a;}
+  input {border: 1px solid #d43f3a;}
+}
+
+.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}
